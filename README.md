@@ -85,10 +85,10 @@ If you had to do `go env`, then copy that value in for `$GOROOT` below
 Then, copy and paste the following into your `~/.vimrc`
 
 `
-filetype off  
-filetype plugin indent off  
-set rtp+=$GOROOT/misc/vim  
-filetype plugin indent on  
+filetype off    
+filetype plugin indent off    
+set rtp+=$GOROOT/misc/vim     
+filetype plugin indent on     
 syntax on
 `
 
