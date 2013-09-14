@@ -19,7 +19,7 @@ Raise your hand, we're here to help
 ### If you build it, they will come
 
 `
-$ cd $GOPATH/github.com/rdallman/gofirst
+$ cd $GOPATH/src/github.com/rdallman/gofirst
 `
 
 `
@@ -46,20 +46,12 @@ where `EDITOR` = `vim`, `subl`, `nano`, `emacs`, etc.
 
 ### When you're comfortable with this...
 
-`
+```
 $ go get github.com/rdallman/goserver
-`
+$ cd $GOPATH/src/github.com/rdallman/goserver
+```
 
-`
-$ cd $GOPATH/github.com/rdallman/goserver
-`
-
-`
-$ EDITOR README.md
-`
-
-or you can view the README on
-<https://github.com/rdallman/goserver/blob/master/README.md> ( __do this__ )
+Open the README: <https://github.com/rdallman/goserver/blob/master/README.md>
 
 You can close out of this readme now, but it might be handy to keep `firstserver.go` open in your
 editor for the first few steps of the next tutorial.
