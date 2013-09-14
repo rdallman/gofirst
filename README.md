@@ -59,7 +59,7 @@ $ EDITOR README.md
 `
 
 or you can view the README on
-<https://github.com/rdallman/goserver/blob/master/README.md> (__do this__)
+<https://github.com/rdallman/goserver/blob/master/README.md> ( __do this__ )
 
 You can close out of this readme now, but it might be handy to keep `firstserver.go` open in your
 editor for the first few steps of the next tutorial.
