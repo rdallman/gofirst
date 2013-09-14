@@ -32,11 +32,11 @@ $ go install
 $ gofirst
 `
 
-### open a browser, type in 'localhost:8080/gopher'
+### open a browser, type in `localhost:8080/gopher`
 
 P.S. try some other urls, you'll catch on
 
-### That's all there is to it! _go_ dig around in firstserver.go
+### That's all there is to it! _go_ dig around in `firstserver.go`
 
 `
 $ EDITOR firstserver.go
@@ -59,7 +59,38 @@ $ EDITOR README.md
 `
 
 or you can view the README on
-<https://github.com/rdallman/goserver/blob/master/README.md>
+<https://github.com/rdallman/goserver/blob/master/README.md> (__do this__)
 
 You can close out of this readme now, but it might be handy to keep `firstserver.go` open in your
 editor for the first few steps of the next tutorial.
+
+### BONUS for vimmers (we gotta stick together)
+
+Go is awesome and provides syntax highlighting and other support for `vim`
+
+First:
+
+`
+$ echo $GOROOT
+`
+
+If nothing prints:
+
+`
+$ go env GOROOT
+`
+
+If you had to do `go env`, then copy that value in for `$GOROOT` below
+
+Then, copy and paste the following into your `~/.vimrc`
+
+`
+filetype off  
+filetype plugin indent off  
+set rtp+=$GOROOT/misc/vim  
+filetype plugin indent on  
+syntax on
+`
+
+__Put that in exactly__, even if you have any of the other stuff already set, it's 
+really weird about reloading everything.
