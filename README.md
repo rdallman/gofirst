@@ -86,6 +86,7 @@ Then, copy and paste the following into your `~/.vimrc`
 
 `
 filetype off    
+
 filetype plugin indent off    
 set rtp+=$GOROOT/misc/vim     
 filetype plugin indent on     
