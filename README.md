@@ -84,14 +84,13 @@ If you had to do `go env`, then copy that value in for `$GOROOT` below
 
 Then, copy and paste the following into your `~/.vimrc`
 
-`
-filetype off    
-
-filetype plugin indent off    
-set rtp+=$GOROOT/misc/vim     
-filetype plugin indent on     
+```
+filetype off
+filetype plugin indent off
+set rtp+=$GOROOT/misc/vim
+filetype plugin indent on
 syntax on
-`
+```
 
 __Put that in exactly__, even if you have any of the other stuff already set, it's 
 really weird about reloading everything.
