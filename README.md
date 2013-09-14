@@ -48,5 +48,3 @@ or you can view the README on <https://github.com/rdallman/goserver>
 
 You can close out of this readme now, but it might be handy to keep `firstserver.go` open for
 the first few steps of the next tutorial.
-
-
