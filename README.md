@@ -1,7 +1,8 @@
 # superbasicfragilisticexpialiGOcious
 
 (I'm easier to read in a web browser, unless you get / like markdown syntax)
-<http://github.com/rdallman/gofirst/>
+
+<http://github.com/rdallman/gofirst/blob/master/README.md>
 
 ### go get it (words to live by)
 
@@ -10,12 +11,14 @@ $ go get github.com/rdallman/gofirst
 `
 
 __if this doesn't work, you'll need to fix your $GOPATH__
+
 Raise your hand, we're here to help
 
 ### If you build it, they will come
 
 `
 $ cd $GOPATH/github.com/rdallman/gofirst
+
 $ go install
 `
 
@@ -41,9 +44,14 @@ where EDITOR = vim, subl, nano, emacs, etc.
 
 `
 $ go get github.com/rdallman/goserver
+`
+`
 $ cd $GOPATH/github.com/rdallman/goserver
+`
+`
 $ EDITOR README.md
 `
+
 or you can view the README on <https://github.com/rdallman/goserver>
 
 You can close out of this readme now, but it might be handy to keep `firstserver.go` open for
