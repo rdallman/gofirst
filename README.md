@@ -17,7 +17,7 @@ __if this doesn't work, you'll need to fix your $GOPATH__
 If something went wrong suggestions:
 
 * `go help gopath`
-* "No Git command" on Windows <http://git-scm.com/>
+* "No Git command" on Windows: <http://git-scm.com/>
 
 Raise your hand, we're here to help
 
@@ -39,6 +39,7 @@ Linux/Mac
 `
 $ gofirst
 `
+
 Windows
 
 `
