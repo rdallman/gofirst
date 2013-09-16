@@ -14,7 +14,13 @@ $ go get github.com/rdallman/gofirst
 
 __if this doesn't work, you'll need to fix your $GOPATH__
 
+If something went wrong suggestions:
+
+* `go help gopath`
+* "No Git command" on Windows <http://git-scm.com/>
+
 Raise your hand, we're here to help
+
 
 ### If you build it, they will come
 
@@ -28,9 +34,19 @@ $ go install
 
 ### run the created binary
 
+Linux/Mac
+
 `
 $ gofirst
 `
+Windows
+
+`
+$ gofirst.exe
+`
+
+If this didn't work, you'll need to add `$GOPATH/bin` to your `$PATH`, or
+you can type `$ $GOPATH/bin/gofirst` in shell to run from here on out
 
 ### open a browser, type in `localhost:8080/gopher`
 
