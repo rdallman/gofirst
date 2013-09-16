@@ -53,25 +53,28 @@ you can type `$ $GOPATH/bin/gofirst` in shell to run from here on out
 
 P.S. try some other urls, you'll catch on
 
+Whenever you're done, `ctrl+c` to exit your server.
+
 ### That's all there is to it! _go_ dig around in `firstserver.go`
 
 `
 $ EDITOR firstserver.go
 `
 
-where `EDITOR` = `vim`, `subl`, `nano`, `emacs`, etc.
+where `EDITOR` = `vim`, `subl`, `notepad`, `emacs`, etc.
 
 ### When you're comfortable with this...
+
+You can close out of this readme now, but it might be handy to keep `firstserver.go` open in your
+editor for the first few steps of the next tutorial. When you're ready to move
+on, you should:
+
+Open the README: <https://github.com/rdallman/goserver/blob/master/README.md>
 
 ```
 $ go get github.com/rdallman/goserver
 $ cd $GOPATH/src/github.com/rdallman/goserver
 ```
-
-Open the README: <https://github.com/rdallman/goserver/blob/master/README.md>
-
-You can close out of this readme now, but it might be handy to keep `firstserver.go` open in your
-editor for the first few steps of the next tutorial.
 
 ### BONUS for vimmers (we gotta stick together)
 
