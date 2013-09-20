@@ -4,6 +4,9 @@
 
 <http://github.com/rdallman/gofirst/blob/master/README.md>
 
+If you don't have Go configured, check out
+<http://github.com/rdallman/gofirst/blob/master/INSTRUCTIONS.md>
+
 Just in case, a `$` just denotes to type in shell, don't actually type the `$`
 
 ### go get it (words to live by)
