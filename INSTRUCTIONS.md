@@ -1,7 +1,7 @@
 ### Windows
 
 The first thing we will need is Go. Navigate to
-<http://code.google.com/p/go/downloads/list>. Since we are running Windows, you
+<http://code.google.com/p/go/downloads/list>. Since you are running Windows, you
 will want to download and install the go1.1.2 Windows (x86) MSI installer.
 Either 32bit or 64bit depending on your system and version of windows. (If you
 are unsure just get 32bit or feel free to ask)
@@ -35,7 +35,7 @@ Next, we need to set the path for git. To do this you will need to type
 the following into the command prompt : 
 
 ```
-setx /m PATH “%PATH%; C:\Program Files (x86)\Git\bin”
+setx /m PATH “%PATH%;C:\Program Files (x86)\Git\bin”
 ```
 
 (the quotes are important, don't forget them). It
