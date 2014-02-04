@@ -2,7 +2,7 @@
 
 The first thing we will need is Go. Navigate to
 <http://code.google.com/p/go/downloads/list>. Since you are running Windows, you
-will want to download and install the go1.1.2 Windows (x86) MSI installer.
+will want to download and install the go1.2 Windows (x86) MSI installer.
 Either 32bit or 64bit depending on your system and version of windows. (If you
 are unsure just get 32bit or feel free to ask)
 
@@ -62,7 +62,7 @@ supposed to let one of us know!
 Navigate to the google code repository to grab a copy of Go.
 Point your browser to <http://code.google.com/p/go/downloads/list>
 
-select `go1.1.2.darwin-amd64` PKG installer and download it
+select `go1.2.darwin-amd64` PKG installer and download it
 
 once complete, open the installer and complete the instructions.
 
